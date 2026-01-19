@@ -1,4 +1,4 @@
-This project is a website about recipes. I used knowledge learned from TOP HTML lessons.
+This project is a website about recipes. I used knowledge learned from TOP HTML & CSS lessons.
 
 Media used in this website:
 

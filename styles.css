@@ -1,0 +1,36 @@
+body {
+    background-color: #e2e0e0;
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+ul {
+   list-style-type: circle; 
+}
+
+.main-style {
+    background-color: #f3f4f6;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.menu-name {
+    padding: 10px;
+    background-color: #a07575;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipe-img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
