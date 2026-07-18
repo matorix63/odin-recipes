@@ -1,36 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #e2e0e0;
-    font-family: sans-serif, Helvetica, Arial;
+    background-color: #FBC02D;
+    color: #C62828;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-ul {
-   list-style-type: circle; 
-}
-
-.main-style {
-    background-color: #f3f4f6;
+header {
     text-align: center;
-    width: 400px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+main {
+    max-width: 800px;
     margin: 0 auto;
 }
 
-.menu-name {
-    padding: 10px;
-    background-color: #a07575;
-    display: inline-block;
-    margin: 0 auto;
+.recipes-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-li {
-    text-align: left;
+.recipe-card {
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #F5F5DC;
+    transition: transform 0.20s ease, box-shadow 0.20s ease;
 }
 
-a {
+.recipe-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+.recipe-card a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    gap: 20px;
 }
 
-.recipe-img {
-    height: 100%;
+.recipe-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.recipe-card h2 {
+    font-size: 2rem;
+}
+
+.recipe-card p {
+    font-size: 1rem;
+
+}
+
+.recipe-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #C62828;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.recipe-page h1 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.recipe-page h2 {
+    margin-bottom: 5px;
+}
+
+.recipe-page img {
     width: 100%;
-    object-fit: fill;
+}
+
+.recipe-page ul,
+.recipe-page ol {
+    padding-left: 50px;
+}
+
+.recipe-page li {
+    padding-bottom: 10px;
+}
+footer {
+    text-align: center;
+    padding: 50px;
 }

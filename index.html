@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="main-style">
-        <h1 class="menu-name">Odin Recipes</h1>
-        <ul>
-        <li><a href="recipes/grilled-cheese-sandwich.html">Grilled Cheese Sandwich Recipe</a></li>
-        <li><a href="recipes/microwave-rice.html">Microwave Rice Recipe</a></li>
-        <li><a href="recipes/lasagna.html">Lasagna Recipe</a></li>
+    <header>
+        <h1>Odin Recipes</h1>
+        <p>Check out the recipes below!</p>
+    </header>
+    <main>
+        <ul class="recipes-list">
+            <li class="recipe-card">
+                <a href="recipes/grilled-cheese-sandwich.html">
+                    <img src="images/grilled-cheese-sandwich.jpg" alt="Image of a grilled cheese sandwich">
+                    <div class="recipe-card-text">
+                        <h2>Grilled Cheese Sandwich</h2>
+                        <p>Popular dish made by melting cheese between slices of bread</p>
+                    </div>
+                </a>
+            </li>
+            <li class="recipe-card">
+                <a href="recipes/microwave-rice.html">
+                    <img src="images/microwave-rice.jpg" alt="Image of rice in a bowl">
+                    <div class="recipe-card-text">
+                        <h2>Microwave Rice</h2>
+                        <p>Quick and simple recipe where rice is cooked or reheated in a microwave</p>
+                    </div>
+                </a>
+            </li>
+            <li class="recipe-card">
+                <a href="recipes/lasagna.html">
+                    <img src="images/lasagna.jpg" alt="Image of lasagna">
+                    <div class="recipe-card-text">
+                        <h2>Lasagna</h2>
+                        <p>Traditional Italian dish made with layers of pasta, meat or vegetables, tomato sauce, and cheese</p>
+                    </div>
+                </a>
+            </li>
         </ul>
-    </div>
+    </main>
+    <footer>
+        <p>Built by Matorix63 as a part of The Odin Project curriculum</p>
+    </footer>
 </body>
 </html>
