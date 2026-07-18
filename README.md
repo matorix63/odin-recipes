@@ -1,7 +1,19 @@
-This project is a website about recipes. I used knowledge learned from TOP HTML & CSS lessons.
+# Odin Recipes
 
-Media used in this website:
+A small multi-page website and my first project from The Odin Project curriculum.
 
-1. Grilled cheese sandwich image: Image by Pexels from Pixabay
-2. Microwave rice image: Image by eunyoung LEE from Pixabay
-3. Lasagna image: Image by -Rita-👩‍🍳 und 📷 mit ❤ from Pixabay
+## Pages
+
+- Home page with a card to every recipe
+- Three recipe pages, each with description, ingredients and step-by-step instructions.
+
+## Built with
+
+- Semantic HTML
+- Plain CSS
+
+## Media used
+
+ - Grilled cheese sandwich image: Image by Pexels from Pixabay
+ - Microwave rice image: Image by Brusse from Pixabay
+ - Lasagna image: Image by -Rita-👩‍🍳 und 📷 mit ❤ from Pixabay
